@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Luckiest Guy', cursive;
+            background-color: #7FFFD4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #00796b;
+        }
+        .social-media a, .contact-info a {
+            margin: 0 10px;
+            color: #00796b;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        .social-media a:hover, .contact-info a:hover {
+            color: #004d40;
+        }
+        .contact-info p {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Me</h1>
+        <p>here is my social media i quess</p>
+        <div class="social-media">
+            <h2>Connect with me</h2>
+            <a href="https://discord.com" target="_blank">Discord: baconsaregood</a>
+            <a href="https://www.roblox.com/users/jaxty151/profile" target="_blank">Roblox: jaxty151</a>
+            <a href="https://x.com/baconsareg32986" target="_blank">Twitter: @baconsareg32986</a>
+        </div>
+        <div class="contact-info">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:baconsaregood.1234@gmail.com">baconsaregood.1234@gmail.com</a></p>
+            <p>Outlook: <a href="mailto:baconsaregood.1234@outlook.com">baconsaregood.1234@outlook.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
